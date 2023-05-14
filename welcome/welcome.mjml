@@ -1,0 +1,1441 @@
+<mjml>
+	<mj-head>
+		<mj-title>Добро пожаловать на HobJob 🧡</mj-title>
+		<mj-preview>Добро пожаловать на HobJob 🧡</mj-preview>
+		
+		<mj-style>
+			@media screen and ( max-width: 700px ) {
+				.shop-block {
+					width: 100% !important;
+				}
+
+				.shop-block__title {
+					white-space: normal !important;
+				}
+
+				.footer-menu__link {
+					margin-right: 15px !important;
+					font-size: 15px !important;
+				}
+				
+				.footer-contact__item {
+					margin-right: 25px !important;
+				}
+			}
+			
+			@media screen and ( max-width: 650px ) {
+				.footer-menu {
+					margin-top: 35px !important;
+				}
+
+				.footer-menu__link {
+					display: block !important;
+					margin-right: 0 !important;
+					margin-bottom: 15px !important;
+				}
+				
+				.footer-menu__link:last-child {
+					margin-bottom: 0 !important;
+				}
+
+				.footer-contact__item {
+					display: block !important;
+					margin-right: 0 !important;
+					margin-bottom: 35px !important;
+				}
+				
+				.footer-contact__item:last-child {
+					margin-bottom: 0 !important;
+				}
+
+				.footer-socials-link {
+					margin-right: 15px !important;
+				}
+
+				.footer-socials-link__img {
+					width: 30px !important;
+				}
+			}
+			
+			@media screen and ( max-width: 500px ) {
+				.home {
+					padding: 20px !important;
+					border-radius: 35px !important;
+				}
+
+				.home__title {
+					font-size: 32px !important;
+				}
+
+				.home__title img {
+					padding-top: 5px !important;
+					width: 25px !important;
+				}
+
+				.home__description {
+					font-size: 18px !important;
+				}
+
+				.home__btn {
+					margin-top: 25px !important;
+					min-width: 100% !important;
+				}
+
+				.shop__title {
+					font-size: 32px !important;
+				}
+
+				.shop__description {
+					font-size: 18px !important;
+				}
+
+				.service__title {
+					font-size: 32px !important;
+				}
+
+				.hobjob-good__logo {
+					width: 220px !important;
+				}
+
+				.hobjob-good__title {
+					font-size: 32px !important;
+				}
+
+				.hobjob-good__description {
+					font-size: 18px !important;
+				}
+			}
+		</mj-style>
+	</mj-head>
+
+	<mj-body width="900px" background-color="#ffffff">
+		<mj-section padding="20px 0">
+			<mj-column>
+				<mj-image align="left" href="https://hobjob.ru" src="https://api.hobjob.ru/all/logo.png" width="75px" />
+			</mj-column>
+		</mj-section>
+
+		<mj-section padding="0">
+			<mj-column>
+				<mj-text>
+					<div
+						class="home"
+						style="
+							margin: 0;
+							background-color: #f6f6f6;
+							padding: 35px;
+							border-radius: 50px;
+							box-sizing: border-box;
+						"
+					>
+						<h2
+							class="home__title"
+							style="
+								margin: 0;
+								padding: 0;
+								font-size: 42px;
+								box-sizing: border-box;
+								font-weight: 400;
+								font-family: 'Georgia', serif;
+							"
+						>
+							Добро пожаловать на HobJob
+
+							<img
+								src="https://api.hobjob.ru/all/love.png"
+								style="
+									margin: 0;
+									padding: 0;
+									width: 40px;
+									box-sizing: border-box;
+								"
+								width="40"
+							/>
+						</h2>
+
+						<p
+							class="home__description"
+							style="
+								margin: 0;
+								padding: 0;
+								line-height: 140%;
+								font-size: 24px;
+								margin-top: 25px;
+								box-sizing: border-box;
+								font-family: 'Helvetica', sans-serif;
+							"
+						>
+							HobJob - это платформа, на которой представлены курсы мастеров
+							своего дела. Они учат тому, что умеют лучше всего - творить.
+						</p>
+
+						<a
+							href="https://hobjob.ru/go/training"
+							class="home__btn btn-main-round"
+							style="
+								margin: 0;
+								min-width: 275px;
+								display: inline-block;
+								text-decoration: none;
+								background-color: #dd9e5e;
+								padding: 20px 30px;
+								font-size: 17px;
+								border-radius: 100px;
+								text-align: center;
+								margin-top: 35px;
+								box-sizing: border-box;
+								color: #ffffff;
+								font-family: 'Helvetica', sans-serif;
+							"
+						>
+							Начать обучение
+						</a>
+					</div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section padding="0">
+			<mj-column>
+				<mj-text>
+					<div
+						class="shop"
+						style="
+							margin: 0;
+							padding: 0;
+							margin-top: 50px;
+							box-sizing: border-box;
+						"
+					>
+						<h2
+							class="shop__title"
+							style="
+								margin: 0;
+								padding: 0;
+								font-size: 42px;
+								box-sizing: border-box;
+								font-weight: 400;
+								font-family: 'Georgia', serif;
+							"
+						>
+							Учитесь на практике
+						</h2>
+						<p
+							class="shop__description"
+							style="
+								margin: 0;
+								padding: 0;
+								line-height: 140%;
+								font-size: 24px;
+								margin-top: 25px;
+								margin-bottom: 35px;
+								box-sizing: border-box;
+								font-family: 'Helvetica', sans-serif;
+							"
+						>
+							Обучайтесь у лучших профессионалов своего дела и раскройте самые
+							сокровенные секреты творческого мира
+						</p>
+
+						<div
+							class="shop-block-wrapper"
+							style="
+								margin: 0;
+								padding: 0;
+								
+								box-sizing: border-box;
+							"
+						>
+							<div
+								class="shop-block first"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									display: inline-block;
+									width: 48.5%;
+									margin-bottom: 15px;
+									float: left;
+									box-sizing: border-box;
+								"
+							>
+								<img
+									alt=""
+									class="shop-block-image"
+									src="https://api.hobjob.ru/uploads/courses/c37a89d1-d848-43cb-9d72-c940589bea70_768.jpg"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										width: 100%;
+										border-radius: 15px;
+										box-sizing: border-box;
+									"
+								/>
+
+								<h3
+									class="shop-block__title"
+									style="
+										margin: 0;
+										padding: 0;
+										width: 100%;
+										margin-top: 20px;
+										font-size: 28px;
+										overflow: hidden;
+										white-space: nowrap;
+										text-overflow: ellipsis;
+										box-sizing: border-box;
+										font-weight: 400;
+										font-family: 'Georgia', serif;
+									"
+								>
+									Основы каллиграфии Основы каллиграфии
+								</h3>
+
+								<div
+									class="shop-block-filter"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										margin-top: 20px;
+										margin-bottom: 20px;
+										box-sizing: border-box;
+									"
+								>
+									<span
+										class="shop-block-filter-category"
+										style="
+											margin: 0;
+											
+											display: inline-block;
+											border: 1px solid #dd9e5e;
+											padding: 8px 12px;
+											color: #dd9e5e;
+											border-radius: 100px;
+											font-size: 14px;
+											overflow: hidden;
+											white-space: nowrap;
+											text-overflow: ellipsis;
+											margin-right: 10px;
+											box-sizing: border-box;
+											font-family: 'Helvetica', sans-serif;
+										"
+										>Музыка</span
+									>
+									<span
+										class="shop-block-filter-master"
+										style="
+											margin: 0;
+											
+											display: inline-block;
+											padding: 8px 12px;
+											background-color: #f6f6f6;
+											font-size: 14px;
+											color: #00000;
+											border-radius: 10px;
+											overflow: hidden;
+											white-space: nowrap;
+											text-overflow: ellipsis;
+											box-sizing: border-box;
+											font-family: 'Helvetica', sans-serif;
+										"
+										>Григорий Костюченко</span
+									>
+								</div>
+
+								<a
+									href="https://hobjob.ru/course/"
+									class="shop-block__btn"
+									style="
+										margin: 0;
+										
+										min-width: 100%;
+										display: inline-block;
+										text-decoration: none;
+										background-color: #dd9e5e;
+										padding: 18px 20px;
+										font-size: 16px;
+										border-radius: 15px;
+										text-align: center;
+										box-sizing: border-box;
+										color: #ffffff;
+										font-family: 'Helvetica', sans-serif;
+									"
+								>
+									Смотреть
+								</a>
+							</div>
+
+							<div
+								class="shop-block last"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									display: inline-block;
+									width: 48.5%;
+									margin-bottom: 15px;
+									float: right;
+									box-sizing: border-box;
+								"
+							>
+								<img
+									alt=""
+									class="shop-block-image"
+									src="https://api.hobjob.ru/uploads/courses/c37a89d1-d848-43cb-9d72-c940589bea70_768.jpg"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										width: 100%;
+										border-radius: 15px;
+										box-sizing: border-box;
+									"
+								/>
+
+								<h3
+									class="shop-block__title"
+									style="
+										margin: 0;
+										padding: 0;
+										width: 100%;
+										margin-top: 20px;
+										font-size: 28px;
+										overflow: hidden;
+										white-space: nowrap;
+										text-overflow: ellipsis;
+										box-sizing: border-box;
+										font-weight: 400;
+										font-family: 'Georgia', serif;
+									"
+								>
+									Основы каллиграфии
+								</h3>
+
+								<div
+									class="shop-block-filter"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										margin-top: 20px;
+										margin-bottom: 20px;
+										box-sizing: border-box;
+									"
+								>
+									<span
+										class="shop-block-filter-category"
+										style="
+											margin: 0;
+											display: inline-block;
+											border: 1px solid #dd9e5e;
+											padding: 8px 12px;
+											color: #dd9e5e;
+											border-radius: 100px;
+											font-size: 14px;
+											overflow: hidden;
+											white-space: nowrap;
+											text-overflow: ellipsis;
+											margin-right: 10px;
+											box-sizing: border-box;
+											font-family: 'Helvetica', sans-serif;
+										"
+										>Музыка</span
+									>
+									<span
+										class="shop-block-filter-master"
+										style="
+											margin: 0;
+											display: inline-block;
+											padding: 8px 12px;
+											background-color: #f6f6f6;
+											font-size: 14px;
+											color: #00000;
+											border-radius: 10px;
+											overflow: hidden;
+											white-space: nowrap;
+											text-overflow: ellipsis;
+											box-sizing: border-box;
+											font-family: 'Helvetica', sans-serif;
+										"
+										>Григорий Костюченко</span
+									>
+								</div>
+
+								<a
+									href="https://hobjob.ru/course/"
+									class="shop-block__btn"
+									style="
+										margin: 0;
+										min-width: 100%;
+										display: inline-block;
+										text-decoration: none;
+										background-color: #dd9e5e;
+										padding: 18px 20px;
+										font-size: 16px;
+										border-radius: 15px;
+										text-align: center;
+										box-sizing: border-box;
+										color: #ffffff;
+										font-family: 'Helvetica', sans-serif;
+									"
+								>
+									Смотреть
+								</a>
+							</div>
+						</div>
+
+						<div
+							class="shop-block-wrapper"
+							style="
+								margin: 0;
+								padding: 0;
+								box-sizing: border-box;
+							"
+						>
+							<div
+								class="shop-block first"
+								style="
+									margin: 0;
+									padding: 0;
+									display: inline-block;
+									width: 48.5%;
+									margin-bottom: 15px;
+									float: left;
+									box-sizing: border-box;
+								"
+							>
+								<img
+									alt=""
+									class="shop-block-image"
+									src="https://api.hobjob.ru/uploads/courses/c37a89d1-d848-43cb-9d72-c940589bea70_768.jpg"
+									style="
+										margin: 0;
+										padding: 0;
+										width: 100%;
+										border-radius: 15px;
+										box-sizing: border-box;
+									"
+								/>
+
+								<h3
+									class="shop-block__title"
+									style="
+										margin: 0;
+										padding: 0;
+										width: 100%;
+										margin-top: 20px;
+										font-size: 28px;
+										overflow: hidden;
+										white-space: nowrap;
+										text-overflow: ellipsis;
+										box-sizing: border-box;
+										font-weight: 400;
+										font-family: 'Georgia', serif;
+									"
+								>
+									Основы каллиграфии
+								</h3>
+
+								<div
+									class="shop-block-filter"
+									style="
+										margin: 0;
+										padding: 0;
+										margin-top: 20px;
+										margin-bottom: 20px;
+										box-sizing: border-box;
+									"
+								>
+									<span
+										class="shop-block-filter-category"
+										style="
+											margin: 0;
+											display: inline-block;
+											border: 1px solid #dd9e5e;
+											padding: 8px 12px;
+											color: #dd9e5e;
+											border-radius: 100px;
+											font-size: 14px;
+											overflow: hidden;
+											white-space: nowrap;
+											text-overflow: ellipsis;
+											margin-right: 10px;
+											box-sizing: border-box;
+											font-family: 'Helvetica', sans-serif;
+										"
+										>Музыка</span
+									>
+									<span
+										class="shop-block-filter-master"
+										style="
+											margin: 0;
+											display: inline-block;
+											padding: 8px 12px;
+											background-color: #f6f6f6;
+											font-size: 14px;
+											color: #00000;
+											border-radius: 10px;
+											overflow: hidden;
+											white-space: nowrap;
+											text-overflow: ellipsis;
+											box-sizing: border-box;
+											font-family: 'Helvetica', sans-serif;
+										"
+										>Григорий Костюченко</span
+									>
+								</div>
+
+								<a
+									href="https://hobjob.ru/course/"
+									class="shop-block__btn"
+									style="
+										margin: 0;
+										min-width: 100%;
+										display: inline-block;
+										text-decoration: none;
+										background-color: #dd9e5e;
+										padding: 18px 20px;
+										font-size: 16px;
+										border-radius: 15px;
+										text-align: center;
+										box-sizing: border-box;
+										color: #ffffff;
+										font-family: 'Helvetica', sans-serif;
+									"
+								>
+									Смотреть
+								</a>
+							</div>
+
+							<div
+								class="shop-block last"
+								style="
+									margin: 0;
+									padding: 0;
+									display: inline-block;
+									width: 48.5%;
+									margin-bottom: 15px;
+									float: right;
+									box-sizing: border-box;
+								"
+							>
+								<img
+									alt=""
+									class="shop-block-image"
+									src="https://api.hobjob.ru/uploads/courses/c37a89d1-d848-43cb-9d72-c940589bea70_768.jpg"
+									style="
+										margin: 0;
+										padding: 0;
+										width: 100%;
+										border-radius: 15px;
+										box-sizing: border-box;
+									"
+								/>
+
+								<h3
+									class="shop-block__title"
+									style="
+										margin: 0;
+										padding: 0;
+										width: 100%;
+										margin-top: 20px;
+										font-size: 28px;
+										overflow: hidden;
+										white-space: nowrap;
+										text-overflow: ellipsis;
+										box-sizing: border-box;
+										font-weight: 400;
+										font-family: 'Georgia', serif;
+									"
+								>
+									Основы каллиграфии
+								</h3>
+
+								<div
+									class="shop-block-filter"
+									style="
+										margin: 0;
+										padding: 0;
+										margin-top: 20px;
+										margin-bottom: 20px;
+										box-sizing: border-box;
+									"
+								>
+									<span
+										class="shop-block-filter-category"
+										style="
+											margin: 0;
+											display: inline-block;
+											border: 1px solid #dd9e5e;
+											padding: 8px 12px;
+											color: #dd9e5e;
+											border-radius: 100px;
+											font-size: 14px;
+											overflow: hidden;
+											white-space: nowrap;
+											text-overflow: ellipsis;
+											margin-right: 10px;
+											box-sizing: border-box;
+											font-family: 'Helvetica', sans-serif;
+										"
+										>Музыка</span
+									>
+									<span
+										class="shop-block-filter-master"
+										style="
+											margin: 0;
+											display: inline-block;
+											padding: 8px 12px;
+											background-color: #f6f6f6;
+											font-size: 14px;
+											color: #00000;
+											border-radius: 10px;
+											overflow: hidden;
+											white-space: nowrap;
+											text-overflow: ellipsis;
+											box-sizing: border-box;
+											font-family: 'Helvetica', sans-serif;
+										"
+										>Григорий Костюченко</span
+									>
+								</div>
+
+								<a
+									href="https://hobjob.ru/course/"
+									class="shop-block__btn"
+									style="
+										margin: 0;
+										min-width: 100%;
+										display: inline-block;
+										text-decoration: none;
+										background-color: #dd9e5e;
+										padding: 18px 20px;
+										font-size: 16px;
+										border-radius: 15px;
+										text-align: center;
+										box-sizing: border-box;
+										color: #ffffff;
+										font-family: 'Helvetica', sans-serif;
+									"
+								>
+									Смотреть
+								</a>
+							</div>
+						</div>
+
+						<a
+							href="https://hobjob.ru/course/"
+							class="btn-gray"
+							style="
+								margin: 0;
+								width: 100%;
+								display: inline-block;
+								text-decoration: none;
+								background-color: #ebebeb;
+								padding: 20px 30px;
+								font-size: 17px;
+								border-radius: 15px;
+								margin-right: 15px;
+								text-align: center;
+								box-sizing: border-box;
+								color: #000000;
+								font-family: 'Helvetica', sans-serif;
+							"
+						>
+							Показать еще
+						</a>
+					</div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		
+		<mj-section padding="0">
+			<mj-column>
+				<mj-text>
+					<div
+						class="service"
+						style="
+							margin: 0;
+							padding: 0;
+							margin-top: 50px;
+							box-sizing: border-box;
+						"
+					>
+						<h3
+							class="service__title"
+							style="
+								margin: 0;
+								padding: 0;
+								font-size: 42px;
+								margin-bottom: 25px;
+								box-sizing: border-box;
+								font-weight: 400;
+								font-family: 'Georgia', serif;
+							"
+						>
+							Почему HobJob?
+						</h3>
+
+						<div
+							class="service-block"
+							style="
+								margin: 0;
+								width: 100%;
+								background-color: #f6f6f6;
+								border-radius: 35px;
+								padding: 25px;
+								margin-bottom: 25px;
+								box-sizing: border-box;
+								color: #000000;
+							"
+						>
+							<h3
+								class="service-block__title"
+								style="
+									margin: 0;
+									padding: 0;
+									font-size: 32px;
+									margin-bottom: 25px;
+									box-sizing: border-box;
+									font-weight: 400;
+									font-family: 'Georgia', serif;
+								"
+							>
+								Офлайн мастер-классы
+							</h3>
+
+							<ul
+								class="service-block-list"
+								style="
+									margin: 0;
+									padding: 0;
+									list-style: none;
+									padding-left: 3px;
+									box-sizing: border-box;
+									font-family: 'Helvetica', sans-serif;
+								"
+							>
+								<li
+									class="service-block-list__item"
+									style="
+										margin: 0;
+										padding: 0;
+										font-size: 18px;
+										margin-bottom: 10px;
+										line-height: 140%;
+										box-sizing: border-box;
+										margin-left: 0px;
+									"
+								>
+									Ограничение по времени
+								</li>
+								<li
+									class="service-block-list__item"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										font-size: 18px;
+										margin-bottom: 10px;
+										line-height: 140%;
+										box-sizing: border-box;
+										margin-left: 0px;
+									"
+								>
+									Затраты времени на дорогу
+								</li>
+								<li
+									class="service-block-list__item"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										font-size: 18px;
+										margin-bottom: 10px;
+										line-height: 140%;
+										box-sizing: border-box;
+										margin-left: 0px;
+									"
+								>
+									Стоимость одного мастер-класса в среднем 1500₽
+								</li>
+								<li
+									class="service-block-list__item"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										font-size: 18px;
+										margin-bottom: 10px;
+										line-height: 140%;
+										box-sizing: border-box;
+										margin-left: 0px;
+									"
+								>
+									Тяжело пройти больше 4 мастер-классов в месяц
+								</li>
+								<li
+									class="service-block-list__item"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										font-size: 18px;
+										line-height: 140%;
+										box-sizing: border-box;
+										margin-left: 0px;
+										margin-bottom: 0;
+									"
+								>
+									Eсли вы забыли что-то после обучения, вам нужно ещё раз
+									проходить мастер-класс
+								</li>
+							</ul>
+						</div>
+
+						<div
+							class="service-block"
+							style="
+								margin: 0;
+								width: 100%;
+								background-color: #f6f6f6;
+								border-radius: 35px;
+								padding: 25px;
+								margin-bottom: 25px;
+								box-sizing: border-box;
+								color: #000000;
+							"
+						>
+							<h3
+								class="service-block__title"
+								style="
+									margin: 0;
+									padding: 0;
+									font-size: 32px;
+									margin-bottom: 25px;
+									box-sizing: border-box;
+									font-weight: 400;
+									font-family: 'Georgia', serif;
+								"
+							>
+								Онлайн на HobJob
+							</h3>
+
+							<ul
+								class="service-block-list-color"
+								style="
+									margin: 0;
+									padding: 0;
+									list-style: none;
+									padding-left: 3px;
+									box-sizing: border-box;
+									font-family: 'Helvetica', sans-serif;
+								"
+							>
+								<li
+									class="service-block-list-color__item"
+									style="
+										margin: 0;
+										padding: 0;
+										font-size: 18px;
+										margin-bottom: 10px;
+										line-height: 140%;
+										color: #dd9e5e;
+										box-sizing: border-box;
+										margin-left: 0px;
+									"
+								>
+									Занимайтесь сколько захотите
+								</li>
+								<li
+									class="service-block-list-color__item"
+									style="
+										margin: 0;
+										padding: 0;
+										font-size: 18px;
+										margin-bottom: 10px;
+										line-height: 140%;
+										color: #dd9e5e;
+										box-sizing: border-box;
+										margin-left: 0px;
+									"
+								>
+									Можете заниматься где вам удобно
+								</li>
+								<li
+									class="service-block-list-color__item"
+									style="
+										margin: 0;
+										padding: 0;
+										font-size: 18px;
+										margin-bottom: 10px;
+										line-height: 140%;
+										color: #dd9e5e;
+										box-sizing: border-box;
+										margin-left: 0px;
+									"
+								>
+									Доступ ко всем курсам от 249₽ в месяц
+								</li>
+								<li
+									class="service-block-list-color__item"
+									style="
+										margin: 0;
+										padding: 0;
+										font-size: 18px;
+										margin-bottom: 10px;
+										line-height: 140%;
+										color: #dd9e5e;
+										box-sizing: border-box;
+										margin-left: 0px;
+									"
+								>
+									Можете проходить курсы хоть каждый день
+								</li>
+								<li
+									class="service-block-list-color__item"
+									style="
+										margin: 0;
+										padding: 0;
+										font-size: 18px;
+										line-height: 140%;
+										color: #dd9e5e;
+										box-sizing: border-box;
+										margin-left: 0px;
+										margin-bottom: 0;
+									"
+								>
+									Всегда можете пересмотреть курсы которые проходили
+								</li>
+							</ul>
+						</div>
+					</div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section padding="0">
+			<mj-column>
+				<mj-text>
+					<div
+						class="hobjob-good"
+						style="
+							margin: 0;
+							padding: 0;
+							margin-top: 50px;
+							box-sizing: border-box;
+						"
+					>
+						<img
+							src="https://api.hobjob.ru/all/hobjob-good-logo.png"
+							alt=""
+							class="hobjob-good__logo"
+							style="
+								margin: 0;
+								padding: 0;
+								
+								width: 250px;
+								margin-bottom: 25px;
+								box-sizing: border-box;
+							"
+							width="250"
+						/>
+
+						<h2
+							class="hobjob-good__title"
+							style="
+								margin: 0;
+								padding: 0;
+								font-size: 42px;
+								margin-bottom: 25px;
+								box-sizing: border-box;
+								font-weight: 400;
+								font-family: 'Georgia', serif;
+							"
+						>
+							Участие в благотворительности
+						</h2>
+
+						<p
+							class="hobjob-good__description"
+							style="
+								margin: 0;
+								padding: 0;
+								line-height: 140%;
+								font-size: 24px;
+								margin-top: 25px;
+								margin-bottom: 25px;
+								box-sizing: border-box;
+								font-family: 'Helvetica', sans-serif;
+							"
+						>
+							Покупая подписку на HobJob, вы помогаете детям с заболеваниями,
+							так как с каждой подписки мы отправляем 9₽ в фонд
+							<a
+								href="https://www.dobryaki.ru/wards"
+								style="
+									margin: 0;
+									padding: 0;
+									box-sizing: border-box;
+									color: #dd9e5e;
+								"
+								>«Клуб добряков»</a
+							>. Обучаясь новым навыкам на HobJob, вы помогаете детям.
+						</p>
+
+						<img
+							src="https://api.hobjob.ru/all/hobjob-good-image.jpg"
+							alt=""
+							class="hobjob-good__image"
+							style="
+								margin: 0;
+								padding: 0;
+								
+								width: 100%;
+								box-sizing: border-box;
+							"
+						/>
+					</div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section padding="0">
+			<mj-column>
+				<mj-text>
+					<div
+						class="footer"
+						style="
+							margin: 0;
+							
+							margin-top: 25px;
+							background-color: #f6f6f6;
+							padding: 35px;
+							border-radius: 50px;
+							box-sizing: border-box;
+							font-family: 'Helvetica', sans-serif;
+						"
+					>
+						<div
+							class="footer-socials"
+							style="
+								margin: 0;
+								padding: 0;
+								
+								box-sizing: border-box;
+							"
+						>
+							<a
+								href="/"
+								class="footer-socials-link"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									text-decoration: none;
+									margin-right: 25px;
+									box-sizing: border-box;
+									color: #dd9e5e;
+								"
+							>
+								<img
+									class="footer-socials-link__img"
+									alt=""
+									src="https://api.hobjob.ru/all/socials/dzen.png"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										width: 35px;
+										box-sizing: border-box;
+									"
+									width="35"
+								/>
+							</a>
+
+							<a
+								href="/"
+								class="footer-socials-link"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									text-decoration: none;
+									margin-right: 25px;
+									box-sizing: border-box;
+									color: #dd9e5e;
+								"
+							>
+								<img
+									class="footer-socials-link__img"
+									alt=""
+									src="https://api.hobjob.ru/all/socials/vk.png"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										width: 35px;
+										box-sizing: border-box;
+									"
+									width="35"
+								/>
+							</a>
+
+							<a
+								href="/"
+								class="footer-socials-link"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									text-decoration: none;
+									margin-right: 25px;
+									box-sizing: border-box;
+									color: #dd9e5e;
+								"
+							>
+								<img
+									class="footer-socials-link__img"
+									alt=""
+									src="https://api.hobjob.ru/all/socials/youtube.png"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										width: 35px;
+										box-sizing: border-box;
+									"
+									width="35"
+								/>
+							</a>
+
+							<a
+								href="/"
+								class="footer-socials-link"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									text-decoration: none;
+									margin-right: 0;
+									box-sizing: border-box;
+									color: #dd9e5e;
+								"
+							>
+								<img
+									class="footer-socials-link__img"
+									alt=""
+									src="https://api.hobjob.ru/all/socials/tg.png"
+									style="
+										margin: 0;
+										padding: 0;
+										
+										width: 35px;
+										box-sizing: border-box;
+									"
+									width="35"
+								/>
+							</a>
+						</div>
+
+						<div
+							class="footer-menu"
+							style="
+								margin: 0;
+								padding: 0;
+								
+								margin-top: 50px;
+								box-sizing: border-box;
+							"
+						>
+							<a
+								href="/"
+								class="footer-menu__link"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									text-decoration: none;
+									margin-right: 25px;
+									font-size: 16px;
+									box-sizing: border-box;
+									color: #000000;
+								"
+							>
+								Главная
+							</a>
+
+							<a
+								href="/"
+								class="footer-menu__link"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									text-decoration: none;
+									margin-right: 25px;
+									font-size: 16px;
+									box-sizing: border-box;
+									color: #000000;
+								"
+							>
+								Курсы
+							</a>
+
+							<a
+								href="/"
+								class="footer-menu__link"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									text-decoration: none;
+									margin-right: 25px;
+									font-size: 16px;
+									box-sizing: border-box;
+									color: #000000;
+								"
+							>
+								Журнал
+							</a>
+
+							<a
+								href="/"
+								class="footer-menu__link"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									text-decoration: none;
+									margin-right: 25px;
+									font-size: 16px;
+									box-sizing: border-box;
+									color: #000000;
+								"
+							>
+								Выложить курс
+							</a>
+
+							<a
+								href="/"
+								class="footer-menu__link"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									text-decoration: none;
+									margin-right: 25px;
+									font-size: 16px;
+									box-sizing: border-box;
+									color: #000000;
+								"
+							>
+								Войти
+							</a>
+						</div>
+
+						<div
+							class="footer-contact"
+							style="
+								margin: 0;
+								padding: 0;
+								
+								margin-top: 50px;
+								box-sizing: border-box;
+							"
+						>
+							<a
+								href="mailto:support@hobjob.ru"
+								class="footer-contact__item"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									display: inline-block;
+									text-decoration: none;
+									font-size: 21px;
+									margin-right: 50px;
+									box-sizing: border-box;
+									color: #dd9e5e;
+								"
+							>
+								<span
+									style="
+										margin: 0;
+										padding: 0;
+										
+										display: block;
+										color: #000000;
+										padding-bottom: 10px;
+										font-size: 16px;
+										box-sizing: border-box;
+									"
+									>Служба поддержки</span
+								>
+
+								support@hobjob.ru
+							</a>
+
+							<a
+								href="mailto:hello@hobjob.ru"
+								class="footer-contact__item"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									display: inline-block;
+									text-decoration: none;
+									font-size: 21px;
+									margin-right: 0;
+									box-sizing: border-box;
+									color: #dd9e5e;
+								"
+							>
+								<span
+									style="
+										margin: 0;
+										padding: 0;
+										
+										display: block;
+										color: #000000;
+										padding-bottom: 10px;
+										font-size: 16px;
+										box-sizing: border-box;
+									"
+									>Для вопросов и предложений</span
+								>
+
+								hello@hobjob.ru
+							</a>
+						</div>
+
+						<div
+							class="footer-copy"
+							style="
+								margin: 0;
+								padding: 0;
+								
+								margin-top: 50px;
+								box-sizing: border-box;
+							"
+						>
+							<span
+								class="footer-copy__title"
+								style="
+									margin: 0;
+									padding: 0;
+									
+									font-size: 14px;
+									box-sizing: border-box;
+								"
+								>© HobJob 2023</span
+							>
+						</div>
+					</div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+	</mj-body>
+</mjml>
